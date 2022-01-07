@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="88992" started-at="2021-10-29T12:58:15Z" finished-at="2021-10-29T12:59:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="88992" started-at="2021-10-29T12:58:15Z" finished-at="2021-10-29T12:59:44Z">
+      <class name="com.JSW.GradeMaster.WhiteSpace">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.JSW.GradeMaster.WhiteSpace@6be46e8f]" name="openBrowser" is-config="true" duration-ms="20124" started-at="2021-10-29T18:28:15Z" finished-at="2021-10-29T18:28:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginPageOpen()[pri:0, instance:com.JSW.GradeMaster.WhiteSpace@6be46e8f]" name="loginPageOpen" duration-ms="13112" started-at="2021-10-29T18:28:35Z" finished-at="2021-10-29T18:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageOpen -->
+        <test-method status="PASS" signature="GradeMaster()[pri:1, instance:com.JSW.GradeMaster.WhiteSpace@6be46e8f]" name="GradeMaster" duration-ms="6895" started-at="2021-10-29T18:28:48Z" finished-at="2021-10-29T18:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GradeMaster -->
+        <test-method status="PASS" signature="CheckWhiteSpaceNotAllowInitialPlaceForGradeName()[pri:2, instance:com.JSW.GradeMaster.WhiteSpace@6be46e8f]" name="CheckWhiteSpaceNotAllowInitialPlaceForGradeName" duration-ms="9699" started-at="2021-10-29T18:28:55Z" finished-at="2021-10-29T18:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckWhiteSpaceNotAllowInitialPlaceForGradeName -->
+        <test-method status="PASS" signature="CheckWhiteSpaceNotAllowMiddlePlaceForGradeName()[pri:3, instance:com.JSW.GradeMaster.WhiteSpace@6be46e8f]" name="CheckWhiteSpaceNotAllowMiddlePlaceForGradeName" duration-ms="9806" started-at="2021-10-29T18:29:05Z" finished-at="2021-10-29T18:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckWhiteSpaceNotAllowMiddlePlaceForGradeName -->
+        <test-method status="PASS" signature="CheckWhiteSpaceNotAllowInitialPlaceForGradeDisplayName()[pri:4, instance:com.JSW.GradeMaster.WhiteSpace@6be46e8f]" name="CheckWhiteSpaceNotAllowInitialPlaceForGradeDisplayName" duration-ms="9709" started-at="2021-10-29T18:29:15Z" finished-at="2021-10-29T18:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckWhiteSpaceNotAllowInitialPlaceForGradeDisplayName -->
+        <test-method status="PASS" signature="CheckWhiteSpaceNotAllowMiddlePlaceForGradeDisplayName()[pri:5, instance:com.JSW.GradeMaster.WhiteSpace@6be46e8f]" name="CheckWhiteSpaceNotAllowMiddlePlaceForGradeDisplayName" duration-ms="9341" started-at="2021-10-29T18:29:24Z" finished-at="2021-10-29T18:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckWhiteSpaceNotAllowMiddlePlaceForGradeDisplayName -->
+        <test-method status="PASS" signature="CheckWhiteSpaceNotAllowInitialPlaceForI3MSGradeRangeID()[pri:6, instance:com.JSW.GradeMaster.WhiteSpace@6be46e8f]" name="CheckWhiteSpaceNotAllowInitialPlaceForI3MSGradeRangeID" duration-ms="10247" started-at="2021-10-29T18:29:34Z" finished-at="2021-10-29T18:29:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckWhiteSpaceNotAllowInitialPlaceForI3MSGradeRangeID -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.JSW.GradeMaster.WhiteSpace@6be46e8f]" name="closeBrowser" is-config="true" duration-ms="6" started-at="2021-10-29T18:29:44Z" finished-at="2021-10-29T18:29:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.JSW.GradeMaster.WhiteSpace -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

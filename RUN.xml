@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="JSW_fieldvalidtion Test Suite">
+
+	  <test name="Fieldvalidation Testcases" >
+   <classes>
+        <!-- for demo(if you dont want to execute this class 
+         <class name="eLMSTestScenario.Markup"/>-->
+      
+        <class name="com.JSW.CompositionMaster.Alphanumeric"/>
+        <!-- <class name="com.JSW.CompositionMaster.Duplicate"/>
+        <class name="com.JSW.CompositionMaster.Length"/>
+        <class name="com.JSW.CompositionMaster.Mandatory"/>
+        <class name="com.JSW.CompositionMaster.SpecialChar"/>
+        <class name="com.JSW.CompositionMaster.SqlChar"/>
+        <class name="com.JSW.CompositionMaster.WhiteSpace"/>
+     	
+     	class name="com.JSW.ModuleMaster.Alphanumeric"/>
+        <class name="com.JSW.ModuleMaster.Duplicate"/>
+        <class name="com.JSW.ModuleMaster.Length"/>
+        <class name="com.JSW.ModuleMaster.Mandatory"/>
+        <class name="com.JSW.ModuleMaster.SpecialChar"/>
+        <class name="com.JSW.ModuleMaster.SqlChar"/>
+        <class name="com.JSW.ModuleMaster.WhiteSpace"/>!
+        
+       class name="com.JSW.ProductMaster.Alphanumeric"/>
+        <class name="com.JSW.ProductMaster.Duplicate"/>
+        <class name="com.JSW.ProductMaster.Length"/>
+        <class name="com.JSW.ProductMaster.Mandatory"/>
+        <class name="com.JSW.ProductMaster.SpecialChar"/>
+        <class name="com.JSW.ProductMaster.SqlChar"/>
+        <class name="com.JSW.ProductMaster.WhiteSpace"/>!
+        
+        class name="com.JSW.DispatchModeMaster.Alphanumeric"/>
+        <class name="com.JSW.DispatchModeMaster.Duplicate"/>
+        <class name="com.JSW.DispatchModeMaster.Length"/>
+        <class name="com.JSW.DispatchModeMaster.Mandatory"/>
+        <class name="com.JSW.DispatchModeMaster.SpecialChar"/>
+        <class name="com.JSW.DispatchModeMaster.SqlChar"/>
+        <class name="com.JSW.DispatchModeMaster.WhiteSpace"/>!
+        
+        class name="com.JSW.MinesRegistration.Alphanumeric"/>
+        <class name="com.JSW.MinesRegistration.Duplicate"/>
+        <class name="com.JSW.MinesRegistration.Length"/>
+        <class name="com.JSW.MinesRegistration.Mandatory"/>
+        <class name="com.JSW.MinesRegistration.SpecialChar"/>
+        <class name="com.JSW.MinesRegistration.SqlChar"/>
+        <class name="com.JSW.MinesRegistration.WhiteSpace"/>!
+        
+        class name="com.JSW.DeviceMaster.Alphanumeric"/>
+        <class name="com.JSW.DeviceMaster.Duplicate"/>
+        <class name="com.JSW.DeviceMaster.Length"/>
+        <class name="com.JSW.DeviceMaster.Mandatory"/>
+        <class name="com.JSW.DeviceMaster.SpecialChar"/>
+        <class name="com.JSW.DeviceMaster.SqlChar"/>
+        <class name="com.JSW.DeviceMaster.WhiteSpace"/>!
+        
+        <class name="com.JSW.LocationMaster.Alphanumeric"/>
+        <class name="com.JSW.LocationMaster.Duplicate"/>
+        <class name="com.JSW.LocationMaster.Length"/>
+        <class name="com.JSW.LocationMaster.Mandatory"/>
+        <class name="com.JSW.LocationMaster.SpecialChar"/>
+        <class name="com.JSW.LocationMaster.SqlChar"/>
+        <class name="com.JSW.LocationMaster.WhiteSpace"/>
+             
+        <class name="com.JSW.MineralTypeMaster.Alphanumeric"/>
+        <class name="com.JSW.MineralTypeMaster.Duplicate"/>
+        <class name="com.JSW.MineralTypeMaster.Length"/>
+        <class name="com.JSW.MineralTypeMaster.Mandatory"/>
+        <class name="com.JSW.MineralTypeMaster.SpecialChar"/>
+        <class name="com.JSW.MineralTypeMaster.SqlChar"/>
+        <class name="com.JSW.MineralTypeMaster.WhiteSpace"/>
+        
+        <class name="com.JSW.MineralMaster.Alphanumeric"/>
+        <class name="com.JSW.MineralMaster.Duplicate"/>
+        <class name="com.JSW.MineralMaster.Length"/>
+        <class name="com.JSW.MineralMaster.Mandatory"/>
+        <class name="com.JSW.MineralMaster.SpecialChar"/>
+        <class name="com.JSW.MineralMaster.SqlChar"/>
+        <class name="com.JSW.MineralMaster.WhiteSpace"/>
+        
+       <class name="com.JSW.GradeMaster.Alphanumeric"/>
+        <class name="com.JSW.GradeMaster.Length"/>
+        <class name="com.JSW.GradeMaster.Mandatory"/>
+        <class name="com.JSW.GradeMaster.SpecialChar"/>
+        <class name="com.JSW.GradeMaster.SqlChar"/>
+        <class name="com.JSW.GradeMaster.WhiteSpace"/>
+       -->
+   </classes>
+    </test>
+	</suite>

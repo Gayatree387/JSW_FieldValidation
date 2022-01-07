@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="JSW_fieldvalidtion Test Suite" duration-ms="28537" started-at="2022-01-07T09:42:19Z" finished-at="2022-01-07T09:42:47Z">
+    <groups>
+    </groups>
+    <test name="Fieldvalidation Testcases" duration-ms="28537" started-at="2022-01-07T09:42:19Z" finished-at="2022-01-07T09:42:47Z">
+      <class name="com.JSW.CompositionMaster.Alphanumeric">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.JSW.CompositionMaster.Alphanumeric@57175e74]" name="openBrowser" is-config="true" duration-ms="7587" started-at="2022-01-07T09:42:19Z" finished-at="2022-01-07T09:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginPageOpen()[pri:0, instance:com.JSW.CompositionMaster.Alphanumeric@57175e74]" name="loginPageOpen" duration-ms="9283" started-at="2022-01-07T09:42:27Z" finished-at="2022-01-07T09:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageOpen -->
+        <test-method status="PASS" signature="CompositionMaster()[pri:1, instance:com.JSW.CompositionMaster.Alphanumeric@57175e74]" name="CompositionMaster" duration-ms="5235" started-at="2022-01-07T09:42:36Z" finished-at="2022-01-07T09:42:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompositionMaster -->
+        <test-method status="PASS" signature="CheckAlphaNumericForCompositionMaster()[pri:3, instance:com.JSW.CompositionMaster.Alphanumeric@57175e74]" name="CheckAlphaNumericForCompositionMaster" duration-ms="3774" started-at="2022-01-07T09:42:41Z" finished-at="2022-01-07T09:42:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAlphaNumericForCompositionMaster -->
+        <test-method status="PASS" signature="CheckAlphaNumericForChemicalContains()[pri:4, instance:com.JSW.CompositionMaster.Alphanumeric@57175e74]" name="CheckAlphaNumericForChemicalContains" duration-ms="2614" started-at="2022-01-07T09:42:45Z" finished-at="2022-01-07T09:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAlphaNumericForChemicalContains -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.JSW.CompositionMaster.Alphanumeric@57175e74]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2022-01-07T09:42:47Z" finished-at="2022-01-07T09:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.JSW.CompositionMaster.Alphanumeric -->
+    </test> <!-- Fieldvalidation Testcases -->
+  </suite> <!-- JSW_fieldvalidtion Test Suite -->
+</testng-results>

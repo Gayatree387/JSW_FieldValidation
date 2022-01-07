@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JSW_fieldvalidtion Test Suite]" parallel="none">
+  <test name="Fieldvalidation Testcases">
+    <classes>
+      <class name="com.JSW.MineralMaster.Alphanumeric"/>
+      <class name="com.JSW.MineralMaster.Duplicate"/>
+      <class name="com.JSW.MineralMaster.Length"/>
+      <class name="com.JSW.MineralMaster.Mandatory"/>
+      <class name="com.JSW.MineralMaster.SpecialChar"/>
+      <class name="com.JSW.MineralMaster.SqlChar"/>
+      <class name="com.JSW.MineralMaster.WhiteSpace"/>
+    </classes>
+  </test> <!-- Fieldvalidation Testcases -->
+  <test name="Fieldvalidation Testcases(failed)" parallel="none">
+    <classes>
+      <class name="com.JSW.MineralMaster.Length">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.JSW.MineralMaster.Length -->
+      <class name="com.JSW.MineralMaster.Mandatory">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.JSW.MineralMaster.Mandatory -->
+      <class name="com.JSW.MineralMaster.Duplicate">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.JSW.MineralMaster.Duplicate -->
+      <class name="com.JSW.MineralMaster.SpecialChar">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.JSW.MineralMaster.SpecialChar -->
+      <class name="com.JSW.MineralMaster.SqlChar">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.JSW.MineralMaster.SqlChar -->
+      <class name="com.JSW.MineralMaster.WhiteSpace">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="CheckWhiteSpaceNotAllowMiddlePlaceForI3MSMineralCode"/>
+          <include name="CheckWhiteSpaceNotAllowInitialPlaceForI3MSMineralCode"/>
+          <include name="CheckWhiteSpaceNotAllowInitialPlaceForMineralName"/>
+          <include name="CheckWhiteSpaceNotAllowMiddlePlaceForMineralName"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.JSW.MineralMaster.WhiteSpace -->
+      <class name="com.JSW.MineralMaster.Alphanumeric">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.JSW.MineralMaster.Alphanumeric -->
+    </classes>
+  </test> <!-- Fieldvalidation Testcases(failed) -->
+</suite> <!-- Failed suite [JSW_fieldvalidtion Test Suite] -->
